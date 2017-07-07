@@ -1,9 +1,8 @@
-print("Hello world")
+import requests
 
-print("Hey 2")
+r = requests.get('http://www.google.com')
 
-print("3")
+print(r.text)
 
-jhg
 
-jhgkjh
+bgg = requests.get('https://www.boardgamegeek.com/xmlapi2/')
